@@ -1,5 +1,23 @@
 //This is the Official IEEE Website for the year 2023
-import {people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, star  } from "../assets";
+import {
+  people01,
+  people02,
+  people03,
+  facebook,
+  instagram,
+  linkedin,
+  twitter,
+  airbnb,
+  binance,
+  coinbase,
+  dropbox,
+  star,
+  ieeecas,
+  ieeecs,
+  ieeepes,
+  ieeeras,
+  ieeewie,
+} from "../assets";
 
 export const navLinks = [
   {
@@ -44,7 +62,6 @@ export const features = [
   },
 ];
 
-
 export const feedback = [
   {
     id: "feedback-1",
@@ -78,43 +95,52 @@ export const chapters = [
     content:
       "Computer Society (CS), is a technical and student chapter from IEEE, it dedicates itself to make progress on the areas related to computing, more information can be seen on Site CS.",
     name: "CS Chapter",
+    img: ieeecs,
   },
   {
     id: "feedback-2",
     content:
       "IEEE WIE is one of the world’s leaders in changing the face of engineering. Our global network connects over 30,000 members to advance women in technology at all points in their lives and careers.",
     name: "WIE Affinity Group",
+    img: ieeewie,
   },
   {
     id: "feedback-3",
     content:
       "The IEEE Robotics and Automation Society (IEEE RAS) is a professional society of the IEEE that supports the development and the exchange of scientific knowledge in the fields of robotics and automation.",
     name: "RAS Chapter",
+    img: ieeeras,
   },
-  // {
-  //   id: "feedback-4",
-  //   content:
-  //     "CAS focuses on the theory, analysis, design, and implementation of circuits and systems. The field spans theoretical foundations, applications, and circuits implementations of algorithms for signal processing.",
-  //   name: "CAS Chapter",
-  //   title: "",
-  //   img: people03,
-  // },
+  {
+    id: "feedback-4",
+    content:
+      "The IEEE Power & Energy Society (PES) is a leading organization dedicated to advancing the electric power, energy industry, and promoting the growth of technology, software, and best practices across all aspects of electric power and energy.",
+    name: "PES Chapter",
+    img: ieeepes,
+  },
+  {
+    id: "feedback-5",
+    content:
+      "CAS focuses on the theory, analysis, design, and implementation of circuits and systems. The field spans theoretical foundations, applications, and circuits implementations of algorithms for signal processing.",
+    name: "CAS Chapter",
+    img: ieeecas,
+  },
 ];
 export const stats = [
   {
     id: "stats-1",
     title: "Members",
-    value: "220+",
+    value: "220",
   },
   {
     id: "stats-2",
     title: "Awards",
-    value: "10+",
+    value: "10",
   },
   {
     id: "stats-3",
     title: "Events",
-    value: "50+",
+    value: "50",
   },
   {
     id: "stats-3",
@@ -166,7 +192,6 @@ export const footerLinks = [
       },
     ],
   },
-  
 ];
 
 export const socialMedia = [
