@@ -19,6 +19,8 @@ import {
   Team,
   Gallery,
   Couns,
+  Awards,
+  Events,
 } from "./components";
 import Contact from "./components/contact";
 import Carousel from "./components/carousel";
@@ -52,12 +54,18 @@ const App = () => {
             <WhyIEEE />
           </Fade>
           <Fade bottom>
+            <Awards/>
+          </Fade>
+          <Fade bottom>
             <Testimonials />
           </Fade>
           {/* <PastEvents /> */}
           {/* <Fade bottom>
             <Clients />
           </Fade> */}
+          <Fade bottom>
+            <Events/>
+          </Fade>
           <Fade bottom>
             <Achievements />
           </Fade>

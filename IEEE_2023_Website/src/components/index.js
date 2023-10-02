@@ -17,10 +17,13 @@ import Team from "./Team/Team";
 import About from "./About/about";
 import Gallery from "./Galleria/Gallery";
 import Couns from "./BranchCouncellor/BranchCouncellor";
-
+import Awards from "./AwardsnAchievements/Acheive";
+import Events from "./events/events";
 export {
   Navbar,
   Gallery,
+  Events,
+  Awards,
   Couns,
   About,
   Team,
