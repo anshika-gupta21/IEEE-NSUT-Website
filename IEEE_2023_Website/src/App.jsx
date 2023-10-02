@@ -19,6 +19,7 @@ import {
   Team,
   Gallery,
   Couns,
+  Awards,
 } from "./components";
 import Contact from "./components/contact";
 import Carousel from "./components/carousel";
@@ -53,6 +54,9 @@ const App = () => {
           </Fade>
           <Fade bottom>
             <WhyIEEE />
+          </Fade>
+          <Fade bottom>
+            <Awards/>
           </Fade>
           <Fade bottom>
             <Testimonials />
