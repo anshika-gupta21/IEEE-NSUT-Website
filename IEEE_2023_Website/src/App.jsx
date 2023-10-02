@@ -16,10 +16,14 @@ import {
   Chapters,
   PastEvents,
   Achievements,
+  Team,
 } from "./components";
 
 const App = () => {
   return (
+    // <Fade bottom>
+    //   <Team />
+    // </Fade>
     <div className='bg-primary w-full'>
       <div className={`${styles.paddingX} ${styles.flexCenter}`}>
         <div className={`${styles.boxWidth}`}>

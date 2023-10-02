@@ -13,9 +13,11 @@ import Chapters from "./Chapters/Chapters";
 import PastEvents from "./PastEvents";
 // import Awards from "./Awards";
 import Achievements from "./Achievements/Achievements";
+import Team from "./Team/Team";
 
 export {
   Navbar,
+  Team,
   Achievements,
   CardDeal,
   WhyIEEE,
