@@ -1,6 +1,6 @@
 import React from "react";
 import Lottie from "lottie-react";
-import canime from "./awards/assets/gifs/contact.json";
+import canime from "./awards/assets/gifs/contact 3.json";
 import styles from "../style";
 import "./stylescss/contact.css";
 
@@ -63,7 +63,7 @@ function Contact() {
         <div className='right_contact'>
           <Lottie
             animationData={canime}
-            loop={1}
+            loop={true}
             className='c_anime hidden md:block'
           />
           ;

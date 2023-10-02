@@ -17,12 +17,9 @@ import {
   ieeepes,
   ieeeras,
   ieeewie,
+ 
 } from "../assets";
-import{
-  sneha,
-  vibhu,
-  taruen,
-} from "../assets/team"
+
 export const navLinks = [
   {
     id: "about",
@@ -89,7 +86,7 @@ export const feedback = [
       "IEEE NSUT has given me an identity I am extremely proud of, and it has made my college life more exciting than I could have ever imagined.I have learned and grown in ways I never thought possible. Not only have I developed managerial skills, but I have also evolved as an individual. I have learned the value of teamwork, leadership, and communication skills.  ",
     name: "Sneha Pandey",
     title: "Mentor",
-    img: sneha,
+    img: people01,
   },
   {
     id: "feedback-2",
@@ -97,7 +94,7 @@ export const feedback = [
       "IEEE’s mission 'to foster technological innovation and excellence for the benefit of humanity' challenges us engineers to work towards a better future for the entire global community,The intimidating questions on the Google form, asking about previous experience, made me hesitate.",
     name: "Vibhu Gupta",
     title: "Mentor",
-    img: vibhu,
+    img: people02,
   },
   {
     id: "feedback-3",
@@ -105,7 +102,7 @@ export const feedback = [
       "As a college student, IEEE has been my primary source of networking and connecting with professional for years.IEEE has been a valuable source to stay in touch with other engineers and to build my professional networks.",
     name: "Tarun Kumar Sharma",
     title: "Chairperson",
-    img: taruen,
+    img: people03,
   },
 ];
 
