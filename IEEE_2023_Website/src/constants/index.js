@@ -18,7 +18,11 @@ import {
   ieeeras,
   ieeewie,
 } from "../assets";
-
+import{
+  sneha,
+  vibhu,
+  taruen,
+} from "../assets/team"
 export const navLinks = [
   {
     id: "about",
@@ -82,26 +86,26 @@ export const feedback = [
   {
     id: "feedback-1",
     content:
-      "IEEE has given me a good chance to improve my management skills. Since my undergraduate degree, I was exposed to many scenarios where I learned valuable lessons including soft skills, networking.",
-    name: "Swati Sharma",
-    title: "Joint Secretary IEEE NSUT",
-    img: people01,
+      "IEEE NSUT has given me an identity I am extremely proud of, and it has made my college life more exciting than I could have ever imagined.I have learned and grown in ways I never thought possible. Not only have I developed managerial skills, but I have also evolved as an individual. I have learned the value of teamwork, leadership, and communication skills.  ",
+    name: "Sneha Pandey",
+    title: "Mentor",
+    img: sneha,
   },
   {
     id: "feedback-2",
     content:
-      "IEEE’s mission 'to foster technological innovation and excellence for the benefit of humanity' challenges us engineers to work towards a better future for the entire global community,",
-    name: "Tarun Kumar Sharma",
-    title: "Chairperson IEEE NSUT",
-    img: people02,
+      "IEEE’s mission 'to foster technological innovation and excellence for the benefit of humanity' challenges us engineers to work towards a better future for the entire global community,The intimidating questions on the Google form, asking about previous experience, made me hesitate.",
+    name: "Vibhu Gupta",
+    title: "Mentor",
+    img: vibhu,
   },
   {
     id: "feedback-3",
     content:
       "As a college student, IEEE has been my primary source of networking and connecting with professional for years.IEEE has been a valuable source to stay in touch with other engineers and to build my professional networks.",
-    name: "Devansh Behl",
-    title: "Executive Member",
-    img: people03,
+    name: "Tarun Kumar Sharma",
+    title: "Chairperson",
+    img: taruen,
   },
 ];
 

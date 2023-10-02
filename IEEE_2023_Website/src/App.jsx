@@ -66,9 +66,7 @@ const App = () => {
           <Fade bottom>
             <Events/>
           </Fade>
-          <Fade bottom>
-            <Achievements />
-          </Fade>
+         
           <Fade bottom>
             <Chapters />
           </Fade>
