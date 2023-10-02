@@ -21,27 +21,35 @@ import {
 
 export const navLinks = [
   {
-    id: "home",
+    id: "about",
     title: "About",
   },
+  // {
+  //   id: "events",
+  //   title: "Events",
+  // },
+  // {
+  //   id: "gallery",
+  //   title: "Galleria",
+  // },
   {
-    id: "features",
-    title: "Events",
+    id: "testimonials",
+    title: "Testimonials",
   },
   {
-    id: "product",
+    id: "achievements",
+    title: "Achievements",
+  },
+  {
+    id: "team",
     title: "Team",
   },
   {
-    id: "clients",
-    title: "Galleria",
-  },
-  {
-    id: "Contact",
+    id: "contact",
     title: "Contact Us",
   },
   {
-    id: "home",
+    id: "joinus",
     title: "Join us",
   },
 ];
@@ -139,19 +147,22 @@ export const stats = [
     id: "stats-1",
     title: "Members",
     value: "600",
+    text: "+",
   },
   {
     id: "stats-2",
     title: "Awards",
     value: "15",
+    text: "+",
   },
   {
     id: "stats-3",
     title: "Events",
     value: "60",
+    text: "+",
   },
   {
-    id: "stats-3",
+    id: "stats-4",
     title: "Student Branch",
     value: "1",
   },

@@ -12,7 +12,7 @@ const Chapters = () => (
 
     <div className='w-full flex justify-between items-center md:flex-row flex-col sm:mb-16 mb-6 relative z-[1]'>
       <h2 className={styles.heading2}>
-        Chapters and Affinity group <br className='sm:block hidden' />
+        CHAPTERS AND AFFINITY GROUP <br className='sm:block hidden' />
       </h2>
       <div className='w-full md:mt-0 mt-6'>
         <p className={`${styles.paragraph} text-left max-w-[450px]`}>

@@ -21,6 +21,7 @@ export default function Count(props) {
             separator=','
           />
         )}
+        {props.text}
       </ScrollTrigger>
     </>
   );

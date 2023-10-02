@@ -24,9 +24,9 @@ const HorizontalScrollCarousel = () => {
   const x = useTransform(scrollYProgress, [0, 1], ["1%", "-95%"]);
 
   return (
-    <section ref={targetRef} className='relative h-[300vh]'>
+    <section ref={targetRef} id='achievements' className='relative h-[300vh]'>
       <h2 className={styles.heading2}>
-        Achievements <br className='sm:block hidden' />
+        ACHIEVEMENTS <br className='sm:block hidden' />
       </h2>
       <div className='sticky top-0 flex h-screen items-center overflow-hidden'>
         <div className='h-auto px-4 py-12  rounded-3xl flex flex-col justify-center'>

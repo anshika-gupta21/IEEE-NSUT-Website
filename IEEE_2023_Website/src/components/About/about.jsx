@@ -1,7 +1,9 @@
 import "../stylescss/about.css";
 import styles from "../../style";
 import Lottie from "lottie-react";
-import aboutanime from "../awards/assets/gifs/about.json"
+import aboutanime from "../awards/assets/gifs/about.json";
+import Button from "../Button";
+
 function About() {
   return (
     <section className='about' id='about'>
@@ -26,13 +28,14 @@ function About() {
             students to learn technical knowledge, inculcate managerial skills
             and develop their overall personalities.
           </p>
-          <button className='about-us'>ABOUT US</button>
+          <Button text='Know More' />
+          {/* <button className='about-us'>ABOUT US</button> */}
         </div>
         <div className='home_right_sec'>
           <Lottie
             animationData={aboutanime}
             loop={true}
-            className='home_anime'
+            className='home_anime hidden md:block'
           />
           ;
         </div>
