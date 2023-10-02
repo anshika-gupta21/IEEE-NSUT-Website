@@ -17,12 +17,16 @@ import logo14 from "../../assets/team/vibhu.jpeg";
 import { GrLinkedinOption } from "react-icons/gr";
 import { BsInstagram } from "react-icons/bs";
 
+import styles from "../../style";
+
 import Honecombcell from "./Honecombcell";
 
 export default function Team() {
   return (
-    <div className='team'>
-      <p className='heading'>OUR TEAM</p>
+    <div className='team-sec'>
+      <h1 className={styles.heading2}>
+        TEAM <br className='sm:block hidden' />
+      </h1>
       <ul className='honeycomb'>
         <Honecombcell
           img={logo14}
@@ -77,7 +81,7 @@ export default function Team() {
           title='PR Head'
           ig={"https://www.instagram.com/wiz_anshul/"}
           ln={"https://www.linkedin.com/in/anshuly777/"}
-          className={"hidden"}
+          // className={"hidden"}
         />
         <Honecombcell
           img={logo8}
@@ -96,7 +100,7 @@ export default function Team() {
           title='Tech Head'
           ig={"https://www.instagram.com/ayushtenguria/"}
           ln={"https://www.linkedin.com/in/ayush-sharma-800853120/"}
-          className={"hidden"}
+          // className={"hidden"}
         />
         <Honecombcell
           img={logo1}

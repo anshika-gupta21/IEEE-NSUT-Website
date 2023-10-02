@@ -11,9 +11,9 @@
     --div-contenttext-font: 'Gugi', sans-serif;
 }
 
-.ln_ic {
+.hc-ln_ic {
     margin: 10px;
-
+    display: inline;
 }
 
 
@@ -23,11 +23,12 @@
     padding: 0;
 }
 
-.team {
+.team-sec {
     margin-top: -60px;
+    padding-bottom: 12%;
 }
 
-.heading {
+.hc-heading {
     text-align: center;
     color: #0ae0e5;
     font-size: 3rem;

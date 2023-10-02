@@ -9,10 +9,10 @@ export default function Honecombcell(props) {
       <img className='honeycomb-cell_img' src={props.img} alt='' />
       <div className='honeycomb-cell_title'>{props.title}</div>
       <a href={props.ln}>
-        <GrLinkedinOption className='ln_ic' />
+        <GrLinkedinOption className='hc-ln_ic' />
       </a>
       <a href={props.ig}>
-        <BsInstagram className='ln_ic' />
+        <BsInstagram className='hc-ln_ic' />
       </a>
     </li>
   );

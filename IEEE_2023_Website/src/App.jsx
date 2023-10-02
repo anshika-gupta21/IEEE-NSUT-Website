@@ -25,9 +25,6 @@ import About from "./components/About/about";
 
 const App = () => {
   return (
-    // <Fade bottom>
-    // <Team />
-    // </Fade>
     <div className='bg-primary w-full'>
       <div className={`${styles.paddingX} ${styles.flexCenter}`}>
         <div className={`${styles.boxWidth}`}>
@@ -62,6 +59,9 @@ const App = () => {
           </Fade>
           <Fade bottom>
             <Chapters />
+          </Fade>
+          <Fade bottom>
+            <Team />
           </Fade>
           <Fade bottom>
             <CTA />

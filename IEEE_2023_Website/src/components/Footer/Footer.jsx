@@ -32,15 +32,15 @@ const Footer = () => (
                     index !== footerlink.links.length - 1 ? "mb-4" : "mb-0"
                   }`}
                 >
-                  {link.name}
+                  <a href={link.link} target='_blank'>
+                    {link.name}
+                  </a>
                 </li>
               ))}
             </ul>
           </div>
         ))}
       </div>
-      
-      
     </div>
 
     <div className='w-full flex justify-between items-center md:flex-row flex-col pt-6 border-t-[1px] border-t-[#3F3E45]'>

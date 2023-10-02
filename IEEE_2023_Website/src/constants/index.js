@@ -162,7 +162,11 @@ export const footerLinks = [
     title: "Contact Us",
     links: [
       {
-        name: "+91-9534781286",
+        name: "Tarun Sharma, Chairperson",
+        link: "",
+      },
+      {
+        name: "+91-8700399088",
         link: "",
       },
       {
@@ -170,7 +174,11 @@ export const footerLinks = [
         link: "",
       },
       {
-        name: "NSUT, Sector-3 Dwarka, Delhi",
+        name: "Netaji Subhas University of Technology, Sector-3, Dwarka",
+        link: "",
+      },
+      {
+        name: "New Delhi - 110072",
         link: "",
       },
     ],
@@ -179,24 +187,8 @@ export const footerLinks = [
     title: "Links",
     links: [
       {
-        name: "NSUT Official Website",
-        link: "http://nsut.ac.in/",
-      },
-      {
-        name: "IEEE Official Website",
-        link: "https://www.ieee.org/about/index.html",
-      },
-      {
-        name: "IEEE Scholarships",
-        link: "https://site.ieee.org/r1-sac/resources/student-scholarships/",
-      },
-      {
-        name: "IEEE Benefits",
-        link: "https://www.ieee.org/membership/benefits/",
-      },
-      {
-        name: "IEEE Global Membership",
-        link: "https://www.ieee.org/membership/join/index.html",
+        name: "Join Us",
+        link: "https://bit.ly/Join_IEEENSUT",
       },
     ],
   },

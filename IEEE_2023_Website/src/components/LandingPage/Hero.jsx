@@ -36,7 +36,9 @@ const Hero = () => {
             </div>
           </h1>
           <div className='ss:flex hidden md:mr-4 mr-0'>
-            <GetStarted />
+            <a href='https://bit.ly/Join_IEEENSUT' target='_blank'>
+              <GetStarted />
+            </a>
           </div>
         </div>
 
