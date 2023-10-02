@@ -20,6 +20,7 @@ import {
   Gallery,
   Couns,
   Awards,
+  Events,
 } from "./components";
 import Contact from "./components/contact";
 import Carousel from "./components/carousel";
@@ -65,6 +66,9 @@ const App = () => {
           {/* <Fade bottom>
             <Clients />
           </Fade> */}
+          <Fade bottom>
+            <Events/>
+          </Fade>
           <Fade bottom>
             <Achievements />
           </Fade>
