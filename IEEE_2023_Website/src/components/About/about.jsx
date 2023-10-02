@@ -1,12 +1,13 @@
 import "../stylescss/about.css";
 import styles from "../../style";
-
+import Lottie from "lottie-react";
+import aboutanime from "../awards/assets/gifs/about.json"
 function About() {
   return (
     <section className='about' id='about'>
       {/* <h1>ABOUT IEEE NSUT SB</h1> */}
       <h2 className={styles.heading2}>
-        ABOUT IEEE NSUT SB
+        ABOUT US
         <br className='sm:block hidden' />
       </h2>
       <div className='main'>
@@ -26,6 +27,14 @@ function About() {
             and develop their overall personalities.
           </p>
           <button className='about-us'>ABOUT US</button>
+        </div>
+        <div className='home_right_sec'>
+          <Lottie
+            animationData={aboutanime}
+            loop={true}
+            className='home_anime'
+          />
+          ;
         </div>
       </div>
     </section>
