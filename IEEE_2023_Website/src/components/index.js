@@ -16,10 +16,12 @@ import Achievements from "./Achievements/Achievements";
 import Team from "./Team/Team";
 import About from "./About/about";
 import Gallery from "./Galleria/Gallery";
+import Couns from "./BranchCouncellor/BranchCouncellor";
 
 export {
   Navbar,
   Gallery,
+  Couns,
   About,
   Team,
   Achievements,

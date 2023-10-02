@@ -18,6 +18,7 @@ import {
   Achievements,
   Team,
   Gallery,
+  Couns,
 } from "./components";
 import Contact from "./components/contact";
 import Carousel from "./components/carousel";
@@ -46,6 +47,9 @@ const App = () => {
           <Fade bottom>
             <About />
             <Stats />
+          </Fade>
+          <Fade bottom>
+            <Couns/>
           </Fade>
           <Fade bottom>
             <WhyIEEE />
