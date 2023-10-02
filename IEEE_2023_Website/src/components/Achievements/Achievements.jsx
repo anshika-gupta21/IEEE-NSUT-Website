@@ -5,6 +5,7 @@ import styles from "../../style";
 import img5 from "../../assets/logo.png";
 
 import AnimatedCard from "./AnimatedCard";
+import FeedbackCard from "../FeedbackCard";
 
 const Achievements = () => {
   return (
@@ -25,14 +26,25 @@ const HorizontalScrollCarousel = () => {
   return (
     <section ref={targetRef} className='relative h-[300vh]'>
       <h2 className={styles.heading2}>
-        Past Events <br className='sm:block hidden' />
+        Achievements <br className='sm:block hidden' />
       </h2>
       <div className='sticky top-0 flex h-screen items-center overflow-hidden'>
-        <div className='h-auto px-4 py-12  bg-blue-gradient-2 rounded-3xl flex flex-col justify-center'>
+        <div className='h-auto px-4 py-12  rounded-3xl flex flex-col justify-center'>
           <motion.div style={{ x }} className='flex gap-20'>
             {cards.map((card) => {
               // return <Card card={card} key={card.id} />;
-              return <AnimatedCard key={card.id} />;
+              return (
+                <FeedbackCard
+                  key={card.id}
+                  img={img5}
+                  name='Name'
+                  title='Title'
+                  content='Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus
+          quia, nulla! Maiores et perferendis eaque, exercitationem praesentium
+          nihil.'
+                />
+              );
+              // return <AnimatedCard key={card.id} />;
             })}
           </motion.div>
         </div>

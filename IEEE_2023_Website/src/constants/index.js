@@ -36,6 +36,14 @@ export const navLinks = [
     id: "clients",
     title: "Galleria",
   },
+  {
+    id: "Contact",
+    title: "Contact Us",
+  },
+  {
+    id: "home",
+    title: "Join us",
+  },
 ];
 
 export const features = [
@@ -130,17 +138,17 @@ export const stats = [
   {
     id: "stats-1",
     title: "Members",
-    value: "220",
+    value: "600",
   },
   {
     id: "stats-2",
     title: "Awards",
-    value: "10",
+    value: "15",
   },
   {
     id: "stats-3",
     title: "Events",
-    value: "50",
+    value: "60",
   },
   {
     id: "stats-3",
@@ -217,21 +225,4 @@ export const socialMedia = [
   },
 ];
 
-export const clients = [
-  {
-    id: "client-1",
-    logo: airbnb,
-  },
-  {
-    id: "client-2",
-    logo: binance,
-  },
-  {
-    id: "client-3",
-    logo: coinbase,
-  },
-  {
-    id: "client-4",
-    logo: dropbox,
-  },
-];
+export const clients = [];

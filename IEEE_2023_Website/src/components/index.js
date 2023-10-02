@@ -14,9 +14,13 @@ import PastEvents from "./PastEvents";
 // import Awards from "./Awards";
 import Achievements from "./Achievements/Achievements";
 import Team from "./Team/Team";
+import About from "./About/about";
+import Gallery from "./Galleria/Gallery";
 
 export {
   Navbar,
+  Gallery,
+  About,
   Team,
   Achievements,
   CardDeal,
