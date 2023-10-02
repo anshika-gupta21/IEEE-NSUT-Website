@@ -19,6 +19,7 @@ import {
   ieeewie,
 } from "../assets";
 
+
 export const navLinks = [
   {
     id: "home",
@@ -36,6 +37,14 @@ export const navLinks = [
     id: "clients",
     title: "Galleria",
   },
+  {
+    id:"Contact",
+    title:"Contact Us"
+  },
+  {
+    id:"home",
+    title:"Join us"
+  }
 ];
 
 export const features = [
@@ -95,20 +104,29 @@ export const chapters = [
     content:
       "Computer Society (CS), is a technical and student chapter from IEEE, it dedicates itself to make progress on the areas related to computing, more information can be seen on Site CS.",
     name: "CS Chapter",
+<<<<<<< Updated upstream
     img: ieeecs,
+=======
+   
+>>>>>>> Stashed changes
   },
   {
     id: "feedback-2",
     content:
       "IEEE WIE is one of the world’s leaders in changing the face of engineering. Our global network connects over 30,000 members to advance women in technology at all points in their lives and careers.",
     name: "WIE Affinity Group",
+<<<<<<< Updated upstream
     img: ieeewie,
+=======
+ 
+>>>>>>> Stashed changes
   },
   {
     id: "feedback-3",
     content:
       "The IEEE Robotics and Automation Society (IEEE RAS) is a professional society of the IEEE that supports the development and the exchange of scientific knowledge in the fields of robotics and automation.",
     name: "RAS Chapter",
+<<<<<<< Updated upstream
     img: ieeeras,
   },
   {
@@ -125,22 +143,61 @@ export const chapters = [
     name: "CAS Chapter",
     img: ieeecas,
   },
+=======
+ 
+  },
+  {
+    id: "feedback-4",
+    content:
+      "CAS focuses on the theory, analysis, design, and implementation of circuits and systems. The field spans theoretical foundations, applications, and circuits implementations of algorithms for signal processing.",
+    name: "CAS Chapter",
+  
+  },
+  {
+    id: "feedback-5",
+    content:
+      "The IEEE Robotics and Automation Society (IEEE RAS) is a professional society of the IEEE that supports the development and the exchange of scientific knowledge in the fields of robotics and automation.",
+    name: "PES Chapter",
+ 
+  },
+
+  // {
+  //   id: "feedback-4",
+  //   content:
+  //     "CAS focuses on the theory, analysis, design, and implementation of circuits and systems. The field spans theoretical foundations, applications, and circuits implementations of algorithms for signal processing.",
+  //   name: "CAS Chapter",
+  //   title: "",
+  //   img: people03,
+  // },
+>>>>>>> Stashed changes
 ];
 export const stats = [
   {
     id: "stats-1",
     title: "Members",
+<<<<<<< Updated upstream
     value: "220",
+=======
+    value: "600+",
+>>>>>>> Stashed changes
   },
   {
     id: "stats-2",
     title: "Awards",
+<<<<<<< Updated upstream
     value: "10",
+=======
+    value: "15+",
+>>>>>>> Stashed changes
   },
   {
     id: "stats-3",
     title: "Events",
+<<<<<<< Updated upstream
     value: "50",
+=======
+    value: "60+",
+>>>>>>> Stashed changes
   },
   {
     id: "stats-3",
@@ -218,6 +275,7 @@ export const socialMedia = [
 ];
 
 export const clients = [
+<<<<<<< Updated upstream
   {
     id: "client-1",
     logo: airbnb,
@@ -234,4 +292,7 @@ export const clients = [
     id: "client-4",
     logo: dropbox,
   },
+=======
+ 
+>>>>>>> Stashed changes
 ];

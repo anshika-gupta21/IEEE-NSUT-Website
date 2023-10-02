@@ -15,8 +15,15 @@ import {
   Hero,
   Chapters,
   PastEvents,
+<<<<<<< Updated upstream
   Achievements,
+=======
+
+>>>>>>> Stashed changes
 } from "./components";
+import Contact from "./components/contact";
+import Carousel from "./components/carousel";
+
 
 const App = () => {
   return (
@@ -33,6 +40,7 @@ const App = () => {
         </div>
       </div>
 
+<<<<<<< Updated upstream
       <div className={`bg-primary ${styles.paddingX} ${styles.flexCenter}`}>
         <div className={`${styles.boxWidth}`}>
           <Fade bottom>
@@ -61,6 +69,25 @@ const App = () => {
             <Footer />
           </Fade>
         </div>
+=======
+    <div className={`bg-primary ${styles.paddingX} ${styles.flexCenter}`}>
+      <div className={`${styles.boxWidth}`}>
+      
+        <Stats />
+  
+        <Business />
+        <Testimonials />
+        <PastEvents />
+   
+       
+        <Clients />
+        <Carousel/>
+        <Chapters />
+       
+        <CTA />
+        <Contact/>
+        <Footer />
+>>>>>>> Stashed changes
       </div>
     </div>
   );
