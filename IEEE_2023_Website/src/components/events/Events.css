@@ -30,7 +30,7 @@
 
 .card-container {
     display: flex;
-    /* overflow-x: scroll; */
+    overflow-x: scroll;
     white-space: nowrap;
     justify-content: center;
 }

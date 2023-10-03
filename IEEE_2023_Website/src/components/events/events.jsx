@@ -1,5 +1,7 @@
 import React from "react";
 import "./Events.css";
+import styles from "../../style";
+
 import { MdSchedule } from "react-icons/md";
 function Events() {
   let [over1, setOver1] = React.useState(false);
@@ -23,8 +25,25 @@ function Events() {
   }
   return (
     <div className='EventPage' id='events'>
-      <div className='event'>EVENTS</div>
-      <div className='card-header'>Explore Future Events</div>
+      {/* <div className='event'>
+        <h2 className={styles.heading2}>
+          EVENTS
+          <br className='sm:block hidden' />
+        </h2>
+      </div>
+      <div className='card-header'>Explore Future Events</div> */}
+
+      <div className='w-full flex justify-between items-center md:flex-row flex-col sm:mb-16 mb-6 relative z-[1]'>
+        <h2 className={styles.heading2}>
+          EVENTS <br className='sm:block hidden' />
+        </h2>
+        <div className='w-full md:mt-0 mt-6'>
+          <p className={`${styles.paragraph} text-left max-w-[450px]`}>
+            Explore Upcoming Events
+          </p>
+        </div>
+      </div>
+
       <div className='card-container'>
         <div className='card'>
           <div className='date-container'>
@@ -43,7 +62,7 @@ function Events() {
 
           <div className='card-content'>
             <h3>IEEE-Day 2023</h3>
-            <div className='description'>Session by Evenidk</div>
+            <div className='description'>Session by Prerna Gaur Mam</div>
           </div>
 
           <button
